@@ -1,0 +1,14 @@
+
+  
+  <div class="card" style="width: 18rem;" *ngFor="let curso of cursos">
+    <img [src]="curso.imagen" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{curso.nombre}}</h5>
+      <p class="card-text">{{curso.duracion}}</p>
+      <p class="card-text">{{curso.descripcion}}</p>
+      <!--<button (click)="agregarCurso()">Añadir nuevo curso</button>
+      <button (click)="toggleCard()">Mostrar/ocultar Cards</button>
+      -->
+
+    </div>
+  </div>
